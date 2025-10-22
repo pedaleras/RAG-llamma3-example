@@ -42,25 +42,22 @@ Ollama** and **free Hugging Face embeddings**, so no API key or paid plan is nee
    ```
 
 2. **Clone this repository**
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>/src
-```
+    ```bash
+    git clone https://github.com/<your-username>/<repo-name>.git
+    cd <repo-name>/src
+    ```
 
 3. **Create and activate a virtual environment**
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate # Windows
-source .venv/bin/activate # Linux/Mac
-```
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate # Windows
+    source .venv/bin/activate # Linux/Mac
+    ```
 
 4. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 **Minimal requirements.txt for this project:**
 
@@ -77,12 +74,12 @@ langchain-text-splitters==1.0.0
 chromadb==1.2.1
 huggingface-hub==0.35.3
 ```
-
+    
 5. Run the app
 
-```bash
-python main.py
-```
+    ```bash
+    python main.py
+    ```
 
 ---
 
